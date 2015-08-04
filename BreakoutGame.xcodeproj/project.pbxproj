@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		132981AC1B6DC1F000A7606A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 132981AB1B6DC1F000A7606A /* main.m */; };
+		132981AF1B6DC1F000A7606A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 132981AE1B6DC1F000A7606A /* AppDelegate.m */; };
+		132981B21B6DC1F000A7606A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132981B11B6DC1F000A7606A /* ViewController.m */; };
+		132981B51B6DC1F000A7606A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132981B31B6DC1F000A7606A /* Main.storyboard */; };
+		132981B71B6DC1F000A7606A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132981B61B6DC1F000A7606A /* Images.xcassets */; };
+		132981BA1B6DC1F000A7606A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 132981B81B6DC1F000A7606A /* LaunchScreen.xib */; };
+		132981C61B6DC1F000A7606A /* BreakoutGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 132981C51B6DC1F000A7606A /* BreakoutGameTests.m */; };
+		132981D41B6DCB4200A7606A /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132981D31B6DCB4200A7606A /* GameController.m */; };
+		1329822C1B6DD1F900A7606A /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 132982231B6DD1F900A7606A /* ball.png */; };
+		1329822E1B6DD1F900A7606A /* bricks.wav in Resources */ = {isa = PBXBuildFile; fileRef = 132982251B6DD1F900A7606A /* bricks.wav */; };
+		1329822F1B6DD1F900A7606A /* fast.png in Resources */ = {isa = PBXBuildFile; fileRef = 132982261B6DD1F900A7606A /* fast.png */; };
+		132982301B6DD1F900A7606A /* infobutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 132982271B6DD1F900A7606A /* infobutton.png */; };
+		132982311B6DD1F900A7606A /* life.png in Resources */ = {isa = PBXBuildFile; fileRef = 132982281B6DD1F900A7606A /* life.png */; };
+		132982321B6DD1F900A7606A /* paddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 132982291B6DD1F900A7606A /* paddle.png */; };
+		132982331B6DD1F900A7606A /* reverse.png in Resources */ = {isa = PBXBuildFile; fileRef = 1329822A1B6DD1F900A7606A /* reverse.png */; };
+		132982361B6DD25C00A7606A /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 132982351B6DD25C00A7606A /* background.png */; };
+		132982381B6DD6D400A7606A /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = 132982371B6DD6D400A7606A /* block.png */; };
+		1329823B1B6DEF3200A7606A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 132982391B6DEF3200A7606A /* Icon.png */; };
+		1329823C1B6DEF3200A7606A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1329823A1B6DEF3200A7606A /* Icon@2x.png */; };
+		1329823E1B6DF9AB00A7606A /* wallAndPaddle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1329823D1B6DF9AB00A7606A /* wallAndPaddle.wav */; };
+		132982471B7114C800A7606A /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 132982461B7114C800A7606A /* music.mp3 */; };
+		1329824F1B7130DF00A7606A /* brick new.png in Resources */ = {isa = PBXBuildFile; fileRef = 1329824E1B7130DF00A7606A /* brick new.png */; };
+		132982531B71341D00A7606A /* red brick.png in Resources */ = {isa = PBXBuildFile; fileRef = 132982521B71341D00A7606A /* red brick.png */; };
+		132982591B71354E00A7606A /* breakout background.png in Resources */ = {isa = PBXBuildFile; fileRef = 132982581B71354E00A7606A /* breakout background.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		132981C01B6DC1F000A7606A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1329819E1B6DC1F000A7606A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 132981A51B6DC1F000A7606A;
+			remoteInfo = BreakoutGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		132981A61B6DC1F000A7606A /* BreakoutGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakoutGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		132981AA1B6DC1F000A7606A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132981AB1B6DC1F000A7606A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		132981AD1B6DC1F000A7606A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		132981AE1B6DC1F000A7606A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		132981B01B6DC1F000A7606A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		132981B11B6DC1F000A7606A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		132981B41B6DC1F000A7606A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		132981B61B6DC1F000A7606A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		132981B91B6DC1F000A7606A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		132981BF1B6DC1F000A7606A /* BreakoutGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakoutGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		132981C41B6DC1F000A7606A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132981C51B6DC1F000A7606A /* BreakoutGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreakoutGameTests.m; sourceTree = "<group>"; };
+		132981D21B6DCB4200A7606A /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		132981D31B6DCB4200A7606A /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		132982231B6DD1F900A7606A /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		132982251B6DD1F900A7606A /* bricks.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bricks.wav; sourceTree = "<group>"; };
+		132982261B6DD1F900A7606A /* fast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fast.png; sourceTree = "<group>"; };
+		132982271B6DD1F900A7606A /* infobutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infobutton.png; sourceTree = "<group>"; };
+		132982281B6DD1F900A7606A /* life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = life.png; sourceTree = "<group>"; };
+		132982291B6DD1F900A7606A /* paddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddle.png; sourceTree = "<group>"; };
+		1329822A1B6DD1F900A7606A /* reverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reverse.png; sourceTree = "<group>"; };
+		132982351B6DD25C00A7606A /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		132982371B6DD6D400A7606A /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
+		132982391B6DEF3200A7606A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1329823A1B6DEF3200A7606A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		1329823D1B6DF9AB00A7606A /* wallAndPaddle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wallAndPaddle.wav; sourceTree = "<group>"; };
+		132982461B7114C800A7606A /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		1329824E1B7130DF00A7606A /* brick new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brick new.png"; sourceTree = "<group>"; };
+		132982521B71341D00A7606A /* red brick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red brick.png"; sourceTree = "<group>"; };
+		132982581B71354E00A7606A /* breakout background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "breakout background.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		132981A31B6DC1F000A7606A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132981BC1B6DC1F000A7606A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1329819D1B6DC1F000A7606A = {
+			isa = PBXGroup;
+			children = (
+				132981A81B6DC1F000A7606A /* BreakoutGame */,
+				132981C21B6DC1F000A7606A /* BreakoutGameTests */,
+				132981A71B6DC1F000A7606A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		132981A71B6DC1F000A7606A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				132981A61B6DC1F000A7606A /* BreakoutGame.app */,
+				132981BF1B6DC1F000A7606A /* BreakoutGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		132981A81B6DC1F000A7606A /* BreakoutGame */ = {
+			isa = PBXGroup;
+			children = (
+				132981AD1B6DC1F000A7606A /* AppDelegate.h */,
+				132981AE1B6DC1F000A7606A /* AppDelegate.m */,
+				132981B01B6DC1F000A7606A /* ViewController.h */,
+				132981B11B6DC1F000A7606A /* ViewController.m */,
+				132981B31B6DC1F000A7606A /* Main.storyboard */,
+				132981B61B6DC1F000A7606A /* Images.xcassets */,
+				132981B81B6DC1F000A7606A /* LaunchScreen.xib */,
+				132981D21B6DCB4200A7606A /* GameController.h */,
+				132981D31B6DCB4200A7606A /* GameController.m */,
+				1329823F1B6DF9AE00A7606A /* Sounds */,
+				132981D51B6DD16900A7606A /* Images */,
+				132981A91B6DC1F000A7606A /* Supporting Files */,
+			);
+			path = BreakoutGame;
+			sourceTree = "<group>";
+		};
+		132981A91B6DC1F000A7606A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				132981AA1B6DC1F000A7606A /* Info.plist */,
+				132981AB1B6DC1F000A7606A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		132981C21B6DC1F000A7606A /* BreakoutGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				132981C51B6DC1F000A7606A /* BreakoutGameTests.m */,
+				132981C31B6DC1F000A7606A /* Supporting Files */,
+			);
+			path = BreakoutGameTests;
+			sourceTree = "<group>";
+		};
+		132981C31B6DC1F000A7606A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				132981C41B6DC1F000A7606A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		132981D51B6DD16900A7606A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				132982581B71354E00A7606A /* breakout background.png */,
+				132982521B71341D00A7606A /* red brick.png */,
+				1329824E1B7130DF00A7606A /* brick new.png */,
+				132982391B6DEF3200A7606A /* Icon.png */,
+				1329823A1B6DEF3200A7606A /* Icon@2x.png */,
+				132982371B6DD6D400A7606A /* block.png */,
+				132982351B6DD25C00A7606A /* background.png */,
+				132982231B6DD1F900A7606A /* ball.png */,
+				132982261B6DD1F900A7606A /* fast.png */,
+				132982271B6DD1F900A7606A /* infobutton.png */,
+				132982281B6DD1F900A7606A /* life.png */,
+				132982291B6DD1F900A7606A /* paddle.png */,
+				1329822A1B6DD1F900A7606A /* reverse.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1329823F1B6DF9AE00A7606A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				132982461B7114C800A7606A /* music.mp3 */,
+				1329823D1B6DF9AB00A7606A /* wallAndPaddle.wav */,
+				132982251B6DD1F900A7606A /* bricks.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		132981A51B6DC1F000A7606A /* BreakoutGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132981C91B6DC1F000A7606A /* Build configuration list for PBXNativeTarget "BreakoutGame" */;
+			buildPhases = (
+				132981A21B6DC1F000A7606A /* Sources */,
+				132981A31B6DC1F000A7606A /* Frameworks */,
+				132981A41B6DC1F000A7606A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreakoutGame;
+			productName = BreakoutGame;
+			productReference = 132981A61B6DC1F000A7606A /* BreakoutGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		132981BE1B6DC1F000A7606A /* BreakoutGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132981CC1B6DC1F000A7606A /* Build configuration list for PBXNativeTarget "BreakoutGameTests" */;
+			buildPhases = (
+				132981BB1B6DC1F000A7606A /* Sources */,
+				132981BC1B6DC1F000A7606A /* Frameworks */,
+				132981BD1B6DC1F000A7606A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				132981C11B6DC1F000A7606A /* PBXTargetDependency */,
+			);
+			name = BreakoutGameTests;
+			productName = BreakoutGameTests;
+			productReference = 132981BF1B6DC1F000A7606A /* BreakoutGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1329819E1B6DC1F000A7606A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Nguyen Minh Khue";
+				TargetAttributes = {
+					132981A51B6DC1F000A7606A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					132981BE1B6DC1F000A7606A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 132981A51B6DC1F000A7606A;
+					};
+				};
+			};
+			buildConfigurationList = 132981A11B6DC1F000A7606A /* Build configuration list for PBXProject "BreakoutGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1329819D1B6DC1F000A7606A;
+			productRefGroup = 132981A71B6DC1F000A7606A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				132981A51B6DC1F000A7606A /* BreakoutGame */,
+				132981BE1B6DC1F000A7606A /* BreakoutGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		132981A41B6DC1F000A7606A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132981B51B6DC1F000A7606A /* Main.storyboard in Resources */,
+				132982531B71341D00A7606A /* red brick.png in Resources */,
+				1329823C1B6DEF3200A7606A /* Icon@2x.png in Resources */,
+				132982471B7114C800A7606A /* music.mp3 in Resources */,
+				132982381B6DD6D400A7606A /* block.png in Resources */,
+				132982321B6DD1F900A7606A /* paddle.png in Resources */,
+				132982361B6DD25C00A7606A /* background.png in Resources */,
+				132982301B6DD1F900A7606A /* infobutton.png in Resources */,
+				132982331B6DD1F900A7606A /* reverse.png in Resources */,
+				1329824F1B7130DF00A7606A /* brick new.png in Resources */,
+				1329823E1B6DF9AB00A7606A /* wallAndPaddle.wav in Resources */,
+				132982311B6DD1F900A7606A /* life.png in Resources */,
+				1329822F1B6DD1F900A7606A /* fast.png in Resources */,
+				132981BA1B6DC1F000A7606A /* LaunchScreen.xib in Resources */,
+				1329822C1B6DD1F900A7606A /* ball.png in Resources */,
+				132982591B71354E00A7606A /* breakout background.png in Resources */,
+				132981B71B6DC1F000A7606A /* Images.xcassets in Resources */,
+				1329823B1B6DEF3200A7606A /* Icon.png in Resources */,
+				1329822E1B6DD1F900A7606A /* bricks.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132981BD1B6DC1F000A7606A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		132981A21B6DC1F000A7606A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132981B21B6DC1F000A7606A /* ViewController.m in Sources */,
+				132981AF1B6DC1F000A7606A /* AppDelegate.m in Sources */,
+				132981D41B6DCB4200A7606A /* GameController.m in Sources */,
+				132981AC1B6DC1F000A7606A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132981BB1B6DC1F000A7606A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132981C61B6DC1F000A7606A /* BreakoutGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		132981C11B6DC1F000A7606A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 132981A51B6DC1F000A7606A /* BreakoutGame */;
+			targetProxy = 132981C01B6DC1F000A7606A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		132981B31B6DC1F000A7606A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				132981B41B6DC1F000A7606A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		132981B81B6DC1F000A7606A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				132981B91B6DC1F000A7606A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		132981C71B6DC1F000A7606A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		132981C81B6DC1F000A7606A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		132981CA1B6DC1F000A7606A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BreakoutGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		132981CB1B6DC1F000A7606A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BreakoutGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		132981CD1B6DC1F000A7606A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BreakoutGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakoutGame.app/BreakoutGame";
+			};
+			name = Debug;
+		};
+		132981CE1B6DC1F000A7606A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BreakoutGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakoutGame.app/BreakoutGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		132981A11B6DC1F000A7606A /* Build configuration list for PBXProject "BreakoutGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132981C71B6DC1F000A7606A /* Debug */,
+				132981C81B6DC1F000A7606A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		132981C91B6DC1F000A7606A /* Build configuration list for PBXNativeTarget "BreakoutGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132981CA1B6DC1F000A7606A /* Debug */,
+				132981CB1B6DC1F000A7606A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		132981CC1B6DC1F000A7606A /* Build configuration list for PBXNativeTarget "BreakoutGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132981CD1B6DC1F000A7606A /* Debug */,
+				132981CE1B6DC1F000A7606A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1329819E1B6DC1F000A7606A /* Project object */;
+}
