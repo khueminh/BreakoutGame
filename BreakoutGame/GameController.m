@@ -143,13 +143,14 @@
 
 - (void)loadBricks {
     brickArray = [[NSMutableArray alloc] init];
-    //Level 1
+    
+    //vi tri vien gach dau tien
     CGFloat xInit = 40;
     CGFloat yInit = 80;
     
     
-    CGFloat xOffset = 60;
-    CGFloat yOffset = 40;
+    CGFloat xOffset = 60; //Khoang cach giua cac vien gach chieu ngang
+    CGFloat yOffset = 40; //Khoang cach giua cac vien gach chieu doc
         
     for (int i=1;i<4;i++){
         if (i!=2){

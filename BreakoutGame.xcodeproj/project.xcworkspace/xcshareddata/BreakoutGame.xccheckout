@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A8786D2D-7026-4827-A75F-5C7C3406F3BC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ABB384538A052B5FDBE0119B643110FAA0B44A81</key>
+		<string>https://github.com/khueminh/BreakoutGame.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BreakoutGame.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ABB384538A052B5FDBE0119B643110FAA0B44A81</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/khueminh/BreakoutGame.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ABB384538A052B5FDBE0119B643110FAA0B44A81</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ABB384538A052B5FDBE0119B643110FAA0B44A81</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BreakoutGame</string>
+		</dict>
+	</array>
+</dict>
+</plist>
